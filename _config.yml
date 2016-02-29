@@ -1,0 +1,14 @@
+title: "Nicholas Mitchell"
+author: "Nicholas Mitchell"
+url: "http://nicholaslmitchell.com"
+email: "mitchellnicholasl@gmail.com"
+twitter_username: "nicklmitch"
+github_username:  "nimi"
+description: "UI Developer"
+permalink: none
+
+excerpt_separator: "\n\n\n"
+defaults: [{scope: {path: ""}, values: {layout: "default"}}, {scope: {path: "", type: "posts"}, values: {comments: true}}]
+gems:
+    - octopress-autoprefixer
+    - jekyll-feed
