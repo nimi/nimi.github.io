@@ -16,7 +16,7 @@ dl, dd, ol, ul, figure {
 body {
     font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
     color: $text-color;
-    background-color: $background-color;
+    background-color: $grey-color-dark;
     -webkit-text-size-adjust: 100%;
     -webkit-font-feature-settings: "kern" 1;
     -moz-font-feature-settings: "kern" 1;
@@ -168,15 +168,25 @@ pre {
  * Icons
  */
 .icon {
+    vertical-align: baseline;
+    line-height: 24px;
+    width: 24px;
+    height: 24px;
+    display: inline-block;
 
     > svg {
         display: inline-block;
-        width: 16px;
-        height: 16px;
+        width: 24px;
+        height: 24px;
         vertical-align: middle;
 
         path {
             fill: $grey-color;
         }
     }
+}
+
+.username {
+    vertical-align: middle;
+    margin-left: 5px;
 }
